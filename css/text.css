@@ -62,7 +62,7 @@ img {
     border-radius: 25px;
 }
 img:hover {
-    transform: scale(1.14);
+    transform: scale(0.86);
 }
 @media (max-width: 480px) {
     body {
