@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<link rel="icon" type="image/x-icon" href="../images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/main.css">
+<meta charset="UTF-8">
+
+<body style="background-color: #a8dadc; background: url(../images/subtle-prism2.png); background-repeat: no-repeat; background-size: vw vh; background-position: center center; background-attachment: fixed;">
+
+<title>Classes</title>
+
+<div class="padding">
+<p align="center">
+  <h3>2048</h3>
+  <p align="center"><iframe src="https://spew45.github.io/simple-games-assets/src/2048/" id="iframe"></iframe>
+</div>
+
+<p align="center"><button class="button button1" onclick="openFullscreen();">Fullscreen</button>
+
+    <script>
+    var elem = document.getElementById("iframe");
+    function openFullscreen() {
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.webkitRequestFullscreen) { /* Safari */
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) { /* IE11 */
+        elem.msRequestFullscreen();
+      }
+    }
+    </script>
+    </p>
